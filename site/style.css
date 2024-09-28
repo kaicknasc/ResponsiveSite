@@ -16,7 +16,7 @@
 
 html {
     width: 100%;
-    height: 100vw;
+    height: 100vh;
 }
 
 header {
@@ -151,4 +151,50 @@ nav a:hover {
 
 .section02 {
     padding: 10rem;
+}
+
+@media (max-width: 490px) {
+    header {
+        width: 100%;
+        gap: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flexbox-section01 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .section01 {
+        padding: 1.5em;
+    }
+    
+    .box {
+        padding: 2rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .texto {
+        width: 100%;
+    }
+
+
+    .section02 {
+        padding: 5rem;
+    }
+
+    .flexbox-section02 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texto-section2 {
+        width: 20%;
+        text-align: center;
+    }
 }
